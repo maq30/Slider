@@ -1,24 +1,39 @@
+* {
+  justify-content: left;
+  justify-content: flex-start; 
+  justify-content: flex-end;
+  justify-content: center; 
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
 .header {
     padding: 60px;
-    background-color: #fdfdfd;
+    background-color: #fadbdb;
     display: flex;
+    height: 40px
+  }
+
+  .middle-box {
+    background-color:black;
+    display: flex;
+    position:absolute;
+    float:right;
+    height: 100%;
+
   }
 
   .main-nav {
-      justify-content: left;
-      font-size: 10px;
+      display: flex;
+      align-items: flex-start;
+      font-size: 20px;
       color: rgb(0, 0, 0);
   }
 
-  .kiisud {
-      align-items: flex-start;
-  }
-
-
-
-
   .footer {
     position: fixed;
+    display:flex;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -26,3 +41,8 @@
     color: rgb(3, 1, 1);
     text-align: center;
   }
+
+  .flex-kiisud{
+    
+  }
+
